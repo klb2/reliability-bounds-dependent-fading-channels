@@ -1,10 +1,10 @@
 import numpy as np
 from scipy import optimize
-import matplotlib.pyplot as plt
-from matplotlib import widgets
 
 #np.seterr(all='raise')
 
+
+# Definitions of f, F, G, H
 def pdf(x):
     return np.exp(-x)
 
@@ -18,10 +18,10 @@ def inv_cdf(x):
 def H(x, n, a):
     return (n-1)*inv_cdf(a+(n-1)*x) + inv_cdf(1-x)
 
-def T(x, n, a):
+def T(x, n, a):  # Integral of H
     return n*x - x*np.log(x) + (1-a+x-n*x)*np.log(1-a+x-n*x)
 
-def psi(a):
+def psi(a):  # Conditional expectation
     if a == 1:
         return np.inf
     return 1 - np.log(1-a)
@@ -62,7 +62,6 @@ def phi(a, n, cmin=None):
     else:
         raise ValueError("cmin must not be negative!")
     return _phi
-    
 
 def best_case_rate(eps, snr, n):
     return np.log2(1.+snr*phi(eps, n))

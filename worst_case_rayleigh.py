@@ -1,11 +1,10 @@
 import numpy as np
 from scipy import optimize
-import matplotlib.pyplot as plt
-from matplotlib import widgets
 
 #np.seterr(all='raise')
 
 
+# Definitions of f_{-}, F_{-}, G_{-}, H_{-}
 def pdf(x):
     return np.exp(x)
 
@@ -18,10 +17,10 @@ def inv_cdf(x):
 def H(x, n, a):
     return inv_cdf(a+x) + (n-1)*inv_cdf(1-(n-1)*x)
 
-def T(x, n, a):
+def T(x, n, a):  # Integral of H
     return -n*x + (a+x)*np.log(a+x) + ((n-1)*x-1)*np.log(1-(n-1)*x)
 
-def psi(a):
+def psi(a):  # Conditional expectation
     if a == 0:
         return -1
     if a == 1:
