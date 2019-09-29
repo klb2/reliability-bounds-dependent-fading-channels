@@ -2,7 +2,8 @@
 
 This repository contains supplementary material to the paper "Reliable
 Communications Over Dependent Fading Wireless Channels" (Karl-L. Besser, Eduard
-Jorswieck, 2019).
+Jorswieck, 2019,
+[https://arxiv.org/abs/1909.01415](https://arxiv.org/abs/1909.01415)).
 
 The idea is to give an interactive version of the calculations to the reader
 such that one can easily reproduce the plots presented in the paper as well as
