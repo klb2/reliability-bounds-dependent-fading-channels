@@ -1,7 +1,7 @@
-# Reliable Communications Over Dependent Fading Wireless Channels - Supplementary Material
+# Reliability Bounds for Dependent Fading Wireless Channels - Supplementary Material
 
-This repository contains supplementary material to the paper "Reliable
-Communications Over Dependent Fading Wireless Channels" (Karl-L. Besser, Eduard
+This repository contains supplementary material to the paper "Reliability
+Bounds for Dependent Fading Wireless Channels" (Karl-L. Besser, Eduard
 Jorswieck, 2019,
 [https://arxiv.org/abs/1909.01415](https://arxiv.org/abs/1909.01415)).
 
@@ -39,3 +39,14 @@ to run the notebook in your browser without setting everything up locally.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/klb2%2Foutage-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb)
 
+
+
+## Acknowledgements
+This research was supported in part by the Deutsche Forschungsgemeinschaft
+(DFG) under grant JO 801/23-1.
+
+
+## License and Referencing
+This program is licensed under the GPLv3 license. If you in any way use this
+code for research that results in publications, please cite our original
+article listed above.
