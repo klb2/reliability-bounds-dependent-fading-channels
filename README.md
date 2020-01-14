@@ -48,9 +48,11 @@ your computer.
 You can then install the requires packages (including Jupyter) by running
 ```
 pip3 install -r requirements.txt
+jupyter nbextension enable --py widgetsnbextension
 ```
 This will install all the needed packages which are listed in the requirements 
-file.
+file. The second line enables the interactive controls in the Jupyter
+notebooks.
 
 Finally, you can run the Jupyter notebooks with
 ```
