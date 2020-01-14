@@ -1,3 +1,21 @@
+"""Calculations of the worst case for dependent Rayleigh fading channels.
+
+This module contains different functions to calculate the worst-case/lower
+bound on the outage capacity for dependent Rayleigh fading channels.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+Author: Karl-Ludwig Besser, Technische Universität Braunschweig
+"""
+__author__ = "Karl-Ludwig Besser"
+__copyright__ = "Copyright (C) 2019-2020 Karl-Ludwig Besser"
+__credits__ = ["Karl-Ludwig Besser", "Eduard A. Jorswieck"]
+__license__ = "GPLv3"
+__version__ = "1.0"
+
 import numpy as np
 from scipy import optimize
 
