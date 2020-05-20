@@ -10,13 +10,13 @@ such that one can easily reproduce the plots presented in the paper as well as
 changing parameters. One can also use this framework as a baseline and adjust
 it to their own needs, e.g., for different channel models.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/klb2%2Foutage-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/klb2%2Freliability-bounds-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb)
 
 ## File List
 The following files are provided in this repository:
 
 * [Outage Capacity Rayleigh
-  Channel.ipynb](https://mybinder.org/v2/gl/klb2%2Foutage-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb):
+  Channel.ipynb](https://mybinder.org/v2/gl/klb2%2Freliability-bounds-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb):
   This Jupyter notebook is the main notebook which contains the different
   curves for the epsilon-outage capacity for Rayleigh fading channels
 * `best-case-epsilon-outage-rayleigh.ipynb` and
@@ -37,7 +37,7 @@ The following files are provided in this repository:
 ### Running it online
 The easiest way is to use services like [Binder](https://mybinder.org/) to run
 the notebook online. Simply navigate to
-[https://mybinder.org/v2/gl/klb2%2Foutage-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb](https://mybinder.org/v2/gl/klb2%2Foutage-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb)
+[https://mybinder.org/v2/gl/klb2%2Freliability-bounds-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb](https://mybinder.org/v2/gl/klb2%2Freliability-bounds-dependent-fading-channels/master?filepath=Outage%20Capacity%20Rayleigh%20Channel.ipynb)
 to run the notebook in your browser without setting everything up locally.
 
 ### Local Installation
