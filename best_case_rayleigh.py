@@ -3,6 +3,19 @@
 This module contains different functions to calculate the best-case/upper
 bound on the outage capacity for dependent Rayleigh fading channels.
 
+
+Copyright (C) 2020 Karl-Ludwig Besser
+
+This program is used in the article:
+Karl-Ludwig Besser and Eduard Jorswieck, "Reliability Bounds for Dependent
+Fading Wireless Channels", IEEE Transactions on Wireless Communications, 2020,
+DOI:10.1109/TWC.2020.2997332.
+
+License:
+This program is licensed under the GPLv3 license. If you in any way use this
+code for research that results in publications, please cite our original
+article listed above.
+
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE.
