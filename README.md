@@ -2,8 +2,9 @@
 
 This repository contains supplementary material to the paper "Reliability
 Bounds for Dependent Fading Wireless Channels" (Karl-L. Besser, Eduard
-Jorswieck, 2019,
-[https://arxiv.org/abs/1909.01415](https://arxiv.org/abs/1909.01415)).
+Jorswieck, 2020,
+[arXiv:1909.01415 [cs.IT]](https://arxiv.org/abs/1909.01415),
+[DOI:10.1109/TWC.2020.2997332](https://doi.org/10.1109/TWC.2020.2997332)).
 
 The idea is to give an interactive version of the calculations to the reader
 such that one can easily reproduce the plots presented in the paper as well as
