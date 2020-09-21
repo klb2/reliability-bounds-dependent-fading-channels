@@ -1,9 +1,9 @@
 # Reliability Bounds for Dependent Fading Wireless Channels - Supplementary Material
 
 This repository contains supplementary material to the paper "Reliability
-Bounds for Dependent Fading Wireless Channels" (Karl-L. Besser, Eduard
-Jorswieck, 2020,
-[arXiv:1909.01415 [cs.IT]](https://arxiv.org/abs/1909.01415),
+Bounds for Dependent Fading Wireless Channels" (Karl-L. Besser and Eduard
+Jorswieck, IEEE Transactions on Wireless Communications, vol. 19, no. 9, pp.
+5833-5845, 2020, [arXiv:1909.01415 [cs.IT]](https://arxiv.org/abs/1909.01415),
 [DOI:10.1109/TWC.2020.2997332](https://doi.org/10.1109/TWC.2020.2997332)).
 
 The idea is to give an interactive version of the calculations to the reader
@@ -71,3 +71,19 @@ This research was supported in part by the Deutsche Forschungsgemeinschaft
 This program is licensed under the GPLv3 license. If you in any way use this
 code for research that results in publications, please cite our original
 article listed above.
+
+You can use the following BibTeX entry
+```
+@article{Besser2020,
+  doi = {10.1109/twc.2020.2997332},
+  year = {2020},
+  month = {9},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  volume = {19},
+  number = {9},
+  pages = {5833--5845},
+  author = {Karl-Ludwig Besser and Eduard A. Jorswieck},
+  title = {Reliability Bounds for Dependent Fading Wireless Channels},
+  journal = {{IEEE} Transactions on Wireless Communications}
+}
+```
