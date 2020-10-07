@@ -60,6 +60,12 @@ Finally, you can run the Jupyter notebooks with
 jupyter notebook 'Outage Capacity Rayleigh Channel.ipynb'
 ```
 
+The present code was developed and tested with the following versions:
+- Python 3.8
+- Jupyter 1.0
+- numpy 1.18
+- scipy 1.4
+
 
 
 ## Acknowledgements
